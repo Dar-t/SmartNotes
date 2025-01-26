@@ -1,0 +1,24 @@
+NoteFilesViewer {
+    border: 1px solid black;
+}
+NoteFilesViewer::item {
+    padding: 3px;
+    height: 18px;
+}
+NoteFilesViewer::item:hover, NoteFilesViewer::branch:hover {
+    background: #d1d1d1;
+}
+NoteFilesViewer::item:hover:selected, NoteFilesViewer::branch:hover:selected {
+    background-color: #d1d1d1;
+}
+NoteFilesViewer::item:selected, NoteFilesViewer::branch:selected {
+    background-color: #d1d1d1;
+}
+NoteFilesViewer::branch {
+    background: palette(base);
+}
+NoteFilesViewer QLineEdit {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #d1d1d1, stop: 1 #d1d1d1);
+    color: black;
+    border-radius: 5px;
+}

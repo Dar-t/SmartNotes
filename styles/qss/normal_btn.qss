@@ -1,0 +1,23 @@
+*[className~="normalBtn"] {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 white, stop: 1 white);
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: bottom;
+    margin-bottom: 2px;
+    padding: 3px 3px 6px 3px;
+    font-weight: 1000;
+}
+*[className~="normalBtn"][className~="deleteBtn"] {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #ff6d6d, stop: 1 #ff6d6d);
+    color: white;
+}
+*[className~="normalBtn"]:disabled {
+    color: #696969;
+    border-color: #696969;
+}
+*[className~="normalBtn"][className~="deleteBtn"]:disabled {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #ffbcbc, stop: 1 #ffbcbc);
+    color: #696969;
+    border-color: #696969;
+}

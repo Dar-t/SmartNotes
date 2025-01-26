@@ -1,0 +1,8 @@
+*[className~="miniBtn"] {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 white, stop: 1 white);
+    border: 1px solid #646464;
+    min-width: 20px;
+    max-width: 20px;
+    min-height: 20px;
+    max-height: 20px;
+}

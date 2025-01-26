@@ -1,0 +1,11 @@
+.QLineEdit { padding: 2px 3px 4px 3px; }
+.QLineEdit {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 white, stop: 1 white);
+    color: black;
+    border-radius: 5px;
+    text-align: bottom;
+    margin-bottom: 2px;
+}
+.QLineEdit, QTextEdit {
+    border: 1px solid black;
+}

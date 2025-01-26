@@ -1,0 +1,15 @@
+QComboBox {
+    padding: 2px 5px 4px 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 white, stop: 1 white);
+}
+QComboBox::down-arrow {
+    image: url("./icons/files/arrowDownIcon.png");
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 white, stop: 1 white);
+}
+QComboBox::down-arrow, QComboBox::drop-down:button {
+    border: none;
+    min-width: 20px;
+    max-width: 20px;
+}

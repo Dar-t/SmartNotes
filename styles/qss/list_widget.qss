@@ -1,0 +1,17 @@
+QListWidget {
+    border: 1px solid black;
+}
+QListWidget {
+    selection-background-color: white;
+    qproperty-iconSize: 10px;
+}
+QListWidget::item {
+    padding: 5px;
+    height: 14px;
+}
+QListWidget::item:selected:!active {
+    background: #d1d1d1;
+}
+#exportSelectedList::item:hover {
+    background: #ffffb7b7
+}
